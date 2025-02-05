@@ -1,0 +1,8 @@
+distlib==0.3.8
+filelock==3.13.1
+gyp==0.1
+platformdirs==4.2.0
+setuptools==68.1.2
+six==1.16.0
+virtualenv==20.25.0+ds
+wheel==0.42.0

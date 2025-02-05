@@ -1,0 +1,78 @@
+2025-01-12 11:40:22,063 - telegram.ext.Application - INFO - Application started
+2025-01-12 11:40:51,797 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-01-12 11:40:51,798 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-05 20:44:10,063 - telegram.ext.Application - INFO - Application started
+2025-02-05 20:45:33,135 - telegram.ext.Application - INFO - Application started
+2025-02-05 20:46:10,339 - __main__ - INFO - Likith Shetty (7751114901): Requested for IP Address!
+2025-02-05 20:46:35,211 - __main__ - INFO - Likith Shetty (7751114901): Started the bot!
+2025-02-05 20:46:45,311 - __main__ - INFO - Likith Shetty (7751114901): Executing ip a!
+2025-02-05 20:46:51,947 - __main__ - ERROR - Error: 'NoneType' object has no attribute 'reply_text'
+2025-02-05 20:46:51,948 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/likithsshetty/Projects/EggPuff/main.py", line 134, in run
+    await update.message.reply_text(f"Executing: {command}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/likithsshetty/Projects/EggPuff/main.py", line 144, in run
+    await update.message.reply_text("Error occurred while executing the command.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-02-05 20:46:59,387 - __main__ - INFO - Likith Shetty (7751114901): Executing ls!
+2025-02-05 20:47:13,789 - __main__ - INFO - Likith Shetty (7751114901): Executing ls -la!
+2025-02-05 20:47:22,618 - __main__ - WARNING - Restricted command form Likith Shetty (7751114901): reboot now
+2025-02-05 20:47:34,463 - __main__ - WARNING - Restricted command form Likith Shetty (7751114901): sudo reboot now
+2025-02-05 20:47:43,187 - __main__ - INFO - Likith Shetty (7751114901): Executing echo hyy!
+2025-02-05 20:47:52,224 - __main__ - INFO - Likith Shetty (7751114901): Executing clear!
+2025-02-05 20:48:01,459 - __main__ - INFO - Likith Shetty (7751114901): Executing echo gg!
+2025-02-05 20:48:20,079 - __main__ - INFO - Likith Shetty (7751114901): Executing systemctl status eggpuff!
+2025-02-05 20:48:56,485 - __main__ - INFO - Likith Shetty (7751114901): Executing systemctl stop eggpuff!
+2025-02-05 20:49:18,263 - __main__ - INFO - Likith Shetty (7751114901): Executing systemctl enable eggpuff!
+2025-02-05 20:49:34,147 - __main__ - INFO - Likith Shetty (7751114901): Executing systemctl status eggpuff!
+2025-02-05 20:50:14,626 - __main__ - INFO - Likith Shetty (7751114901): Asked for Help!
+2025-02-05 20:50:18,655 - __main__ - INFO - Likith Shetty (7751114901): Requested for IP Address!
+2025-02-05 20:51:50,221 - __main__ - ERROR - Error: 'NoneType' object has no attribute 'reply_text'
+2025-02-05 20:51:50,221 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/likithsshetty/Projects/EggPuff/main.py", line 134, in run
+    await update.message.reply_text(f"Executing: {command}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/likithsshetty/Projects/EggPuff/main.py", line 144, in run
+    await update.message.reply_text("Error occurred while executing the command.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-02-05 20:51:59,001 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/!
+2025-02-05 20:52:07,852 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/Media!
+2025-02-05 20:52:24,335 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/Media/Anime!
+2025-02-05 20:52:42,102 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/Media/Anime/Naruto Shippuden (2007-2017)!
+2025-02-05 20:53:01,375 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/Media/Anime/"Naruto Shippuden (2007-2017)"!
+2025-02-05 20:53:27,420 - __main__ - INFO - Likith Shetty (7751114901): Executing ls /home/likithsshetty/Media/Anime/"Naruto Shippuden (2007-2017)"/"Naruto Shippuden Season 01"!
+2025-02-05 20:54:41,432 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/likithsshetty/Projects/EggPuff/.venv/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/likithsshetty/Projects/EggPuff/main.py", line 213, in send_file
+    await update.message.reply_text("Wrong Command Usage.\nUsage: /send_file <path> <file>")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
